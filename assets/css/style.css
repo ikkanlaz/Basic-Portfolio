@@ -8,16 +8,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: #777777;
+h2 {
+    font-size: 24px;
 }
 
 .navbar {
     height: 80px;
+    background-color: #FFFFFF;
 }
 
 .profile-name {
@@ -25,16 +22,19 @@ a:visited {
     font-size: 32px;
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 20px;
     width: 240px;
     margin-left: 10%;
     text-align: center;
+    height: 80px;
+    line-height: 80px;
 }
 
 .navbar-links {
     float: right;
-    padding-top: 30px;
     margin-right: 10%;
+    height: 80px;
+    line-height: 80px;
+
 }
 
 .navbar-links > li {
@@ -42,8 +42,124 @@ a:visited {
     padding: 16px;
 }
 
+.navbar-links > li > a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.navbar-links > li > a:visited {
+    color: #999999;
+}
+
 .link-divider {
     display: inline;
     color: #dddddd;
+}
+
+#container {
+    border-top: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    background-image: url(/Users/andrewlazenby/Desktop/code/Basic-Portfolio/assets/images/topography.png);
+    min-height: 800px;
+}
+
+#main-bio, #contact {
+    clear: both;
+    float: left;
+    width: 50%;
+    margin: 40px;
+    margin-left: 10%;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.section-header, .connect-header {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.section-header {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 3px solid #dddddd;
+}
+
+.connect-header {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 10px;
+}
+
+#contact-info {
+    float: left;
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 5%;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.social-logos {
+    clear: both;   
+}
+
+.social-logos > li {
+    display: inline;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.contact-info-icon {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+footer {
+    clear: both;
+    border-top: 5px solid #4aaaa5;
+    height: 60px;
+}
+
+footer > p {
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.contact-input{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#submit-button {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4aaaa5;
+    padding: 10px 24px;
+    border: none;
+}
+
+input {
+    padding: 5px 0px;
+    border: 1px solid #dddddd;
+}
+
+input::-webkit-input-placeholder {
+  color: #dddddd;
+  padding-left: 5px;
+}
+
+textarea {
+    border-color: #dddddd;
+    padding: 0px;
 }
 
