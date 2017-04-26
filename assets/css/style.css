@@ -13,6 +13,10 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .navbar {
     height: 80px;
     background-color: #FFFFFF;
@@ -123,23 +127,6 @@ h2 {
     margin: 0px 6px;
 }
 
-footer {
-    clear: both;
-    border-top: 5px solid #4aaaa5;
-    height: 60px;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-}
-
-footer > p {
-    line-height: 60px;
-    height: 60px;
-    text-align: center;
-    background-color: #666666;
-}
-
 .contact-input {
     width: 100%;
     margin: 10px 0px;
@@ -171,4 +158,36 @@ textarea {
 .portfolio-image{
     float: left;
     margin: 24px 20px 0px 4px;
+    position: relative;
+}
+
+.image {
+    clear: both;
+}
+
+.image-text {
+    position: absolute;
+    top: 140px;
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    border-top: 5px solid #4aaaa5;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+footer > p {
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #666666;
 }
