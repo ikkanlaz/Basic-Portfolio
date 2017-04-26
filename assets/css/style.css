@@ -168,16 +168,6 @@ textarea {
     padding: 0px;
 }
 
-table {
-    width: 100%;
-}
-
-tr {
-    width: 608px;
-    padding-bottom: 15px;
-    margin: 0 auto;
-}
-
 .portfolio-image{
     float: left;
     margin: 24px 20px 0px 4px;
